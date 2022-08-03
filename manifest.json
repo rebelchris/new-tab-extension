@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "New Tab Extension",
+  "description": "A demo first new tab experience",
+  "action": {
+    "default_icon": "icons/icon-48.png"
+  },
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "new-tab.html"
+  }
+}
